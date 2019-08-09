@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dynamorio.drmemory</id>
+    <version>1.11.17918</version>
+    <title>DynamoRIO.drmemory (Portable)</title>
+    <authors>Christoph Dieck</authors>
+    <projectUrl>https://www.drmemory.org</projectUrl>
+    <packageSourceUrl>https://github.com/cdieck88/choco-packages/tree/master/DynamoRIO.drmemory</packageSourceUrl>
+    <licenseUrl>https://raw.githubusercontent.com/DynamoRIO/drmemory/master/license.txt</licenseUrl>
+    <tags>dynamorio.drmemory drmemory memory-leak memory-profiling memory-debugging leak memory dev</tags>
+    <summary>Dr. Memory monitors memory allocations and memory accesses using shadow memory.</summary>
+    <description>Dr. Memory is an open-source memory debugger built on DynamoRIO and released under an LGPL license. Dr. Memory monitors memory allocations and memory accesses using shadow memory. It detects memory-related programming errors such as accesses of uninitialized memory, accesses to freed memory, heap overflow and underflow, and memory leaks. Its feature set is similar to that of the Valgrind-based Memcheck tool, though it operates on Windows as well as Linux and is twice as fast as Memcheck.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
