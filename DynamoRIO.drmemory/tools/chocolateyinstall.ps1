@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'
  
 $packageName = 'DynamoRIO.drmemory'
-$url = 'https://github.com/DynamoRIO/drmemory/releases/download/release_1.11.0/DrMemory-Windows-1.11.0-2.zip'
-$checksum = 'BAB2AE2A59238DE29B6B12E0CAC9F1F9B97328F9DE2CE5DA76D397DBBB2B8872'
+$url = 'https://github.com/DynamoRIO/drmemory/releases/download/release_2.2.0/DrMemory-Windows-2.2.0-1.zip'
+$checksum = 'FB94511F05375B669F7EE90F374483E2EB199B82004404753FE10A895CA4D9C4'
 $checksumType = 'sha256'
 $installDir = Split-Path -parent $MyInvocation.MyCommand.Definition
  
@@ -13,7 +13,7 @@ Install-ChocolateyZipPackage -PackageName $packageName `
                              -ChecksumType $checksumType
 
 # the zip contains a subdir, we need something to point to the root of the installation
-$DrMemDir = Join-Path $installDir "DrMemory-Windows-1.11.0-2"
+$DrMemDir = Join-Path $installDir "DrMemory-Windows-2.2.0-1"
 
 # The package contains both 32 and 64 bit executables
 # Depending on the OS we need to make sure we create shims for the correct bitness
