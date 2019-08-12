@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>dynamorio.drmemory</id>
-    <version>1.11.17918</version>
+    <version>1.11.20000</version>
     <title>DynamoRIO.drmemory (Portable)</title>
     <authors>Christoph Dieck</authors>
     <projectUrl>https://www.drmemory.org</projectUrl>
